@@ -16,7 +16,7 @@ export default function Hero() {
   return (
     <section
       id='home'
-      className='relative min-h-screen flex items-center justify-center'>
+      className='relative min-h-[500px] flex items-center justify-center'>
       <Navbar />
       <div className='absolute inset-0 bg-gradient-to-br from-blue-50 to-gray-100 dark:from-gray-900 dark:to-gray-950' />
       <div className='container mx-auto px-4 z-10 text-center'>

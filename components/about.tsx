@@ -5,7 +5,6 @@ import { motion, useInView } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, MapPin, Briefcase, GraduationCap } from "lucide-react";
-import profile from "@/asset/image/profile.jpg";
 import Image from "next/image";
 
 export default function About() {
@@ -46,12 +45,14 @@ export default function About() {
                 transition={{ duration: 0.5, delay: 0.3 }}
                 className='mb-8 relative'>
                 <div className='w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary/20'>
-                  <Image src={profile} alt='profile'></Image>
-                  {/* <img
-                    src='/asset/image/profile.svg'
-                    alt='Professional headshot'
-                    className='w-full h-full object-cover'
-                  /> */}
+                  <Image
+                    src="/image/profile.jpg"
+                    width={500}
+                    height={500}
+                    alt="Profile Image"
+                  />
+
+
                 </div>
                 <div className='absolute -bottom-3 -right-3 bg-primary text-white rounded-full p-3'>
                   <Briefcase className='h-6 w-6' />
