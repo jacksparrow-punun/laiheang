@@ -74,7 +74,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* JSON-LD SCHEMA MARKUP */}
-        <meta name="robots" content="noindex, nofollow"></meta>
+        {/* <meta name="robots" content="noindex, nofollow"></meta> */}
 
         <script
           type="application/ld+json"
